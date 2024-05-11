@@ -1,11 +1,13 @@
 body {
-  background: turquoise;
+  background-image: url("https://t4.ftcdn.net/jpg/06/14/46/77/360_F_614467744_7eLjYhKWJIvnu8fk8MTp9VXFYpB15J3p.jpg");
+  background-size: cover;
+  background-position: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .world-clock-hq {
   max-width: 600px;
-  background: white;
+  background: #fcc8e3;
   margin: 60px auto;
   padding: 30px;
   border-radius: 10px;
@@ -17,14 +19,18 @@ h1 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 45px;
   text-align: center;
+  color: #2e0e40;
 }
 
 h2 {
   margin: 0 0 10px;
+  color: #ed208c;
   font-size: 25px;
 }
 select {
   display: block;
+  background: #fddeef;
+  color: black;
   width: 100%;
   padding: 10px;
   border-radius: 5px;
@@ -34,6 +40,7 @@ select {
   opacity: 0.6;
   font-size: 15px;
   font-weight: 200;
+  color: #2e0e40;
 }
 .city {
   display: flex;
@@ -48,12 +55,21 @@ select {
 .time {
   font-size: 44px;
   font-weight: bold;
+  color: #ed208c;
 }
 .time small {
   font-size: 20px;
   vertical-align: middle;
 }
+a {
+  color: #2e0e40;
+}
 footer {
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
+  color: white;
+}
+
+.links {
+  color: white;
 }
